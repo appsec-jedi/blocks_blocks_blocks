@@ -1,0 +1,23 @@
+#createBox {
+  margin: 0 auto;
+  display: block;
+  width: 300px;
+  padding: 20px;
+  font-size: 15px;
+  font-weight: bold;
+}
+.box {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  background-color: #0003fb;
+  margin: 15px;
+  border: 2px solid #000000;
+}
+#x {
+  margin: 5px;
+  border: 1px solid #000000;
+  font-weight: bold;
+  font-size: 10px;
+  border-radius: 8px;
+}
