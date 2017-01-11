@@ -10,6 +10,10 @@ $(function(){
     }
     $('html').css('background-color', randomColor);
     $('body').append("<div class = 'box' id = 'box' style = 'background-color: " + randomColor + ";'><button id = 'x'>X</button></div>")
+    newBox++;
+    if(newBox > 10) {
+      alert("Easy, Tiger. Do you think I'm made of boxes?")
+    }
   });
   $('body').on('click', '.box', function(){
     $(this).css('background-color', 'black');
